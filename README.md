@@ -6,9 +6,12 @@
 建立新使用者的家目錄。
 設定家目錄的權限。
 
-出處:https://blog.gtwang.org/linux/linux-useradd-command-tutorial-examples/https://blog.gtwang.org/linux/linux-useradd-command-tutorial-examples/
+出處:https://blog.gtwang.org/linux/linux-useradd-command-tutorial-examples/https://blog.gtwang.org/linux/linux-useradd-command-tutorial-exam
 
+---
 
+root@kali:~# pwd
+/root
 root@kali:~# -h
 bash: -h: command not found
 root@kali:~# --h
@@ -20,6 +23,7 @@ bash: --help: command not found
 root@kali:~# ls
 Desktop    Downloads  Pictures  Templates  yersinia.log
 Documents  Music      Public    Videos
+root@kali:~# cd
 root@kali:~# useradd
 Usage: useradd [options] LOGIN
        useradd -D
@@ -56,6 +60,4 @@ Options:
   -U, --user-group              create a group with the same name as the user
   -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
 
-
 ---
-
